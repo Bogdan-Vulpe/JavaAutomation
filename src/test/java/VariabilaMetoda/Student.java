@@ -58,6 +58,7 @@ public class Student {
 //        System.out.println(Inaltime);
 //        System.out.println(Greutate+" "+Sex);
 //        System.out.println(Arediploma);
+
         //test
 
         System.out.println("Numele studentului este:"+" "+ Nume);
@@ -73,6 +74,9 @@ public class Student {
 
 
         calculMedie();
+
+
+
 
 
     }
