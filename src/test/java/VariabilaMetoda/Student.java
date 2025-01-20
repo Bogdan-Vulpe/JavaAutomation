@@ -68,6 +68,9 @@ public class Student {
         System.out.println("Numele studentului este:"+" "+ Sex);
         System.out.println("Are studentul diploma?"+" "+ Arediploma);
 
+
+
+
         calculMedie();
 
 
