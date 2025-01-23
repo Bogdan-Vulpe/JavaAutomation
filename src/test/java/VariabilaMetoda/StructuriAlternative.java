@@ -36,20 +36,18 @@ public class StructuriAlternative {
             } else {
                 System.out.println("Numarul este impar pozitiv");
             }
-        }
-        else if (valoare < 0) {
-                if (valoare % 2 == 0) {
-                    System.out.println("Numar este par negativ");
-                } else {
-                    System.out.println("Numarul este impar negativ");
-                }
+        } else if (valoare < 0) {
+            if (valoare % 2 == 0) {
+                System.out.println("Numar este par negativ");
+            } else {
+                System.out.println("Numarul este impar negativ");
             }
-else {
+        } else {
             System.out.println("Numar egal cu zero");
         }
-        }
-
     }
+
+}
 
 
 
