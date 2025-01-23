@@ -11,7 +11,12 @@ public class StructuriAlternative {
 //        metodaComparatieNumar(1000);
 //        metodaComparatieNumar(-6);
 //        metodaComparatieNumar(5);
-        metodaverificareNumarParPozitiv(-7);
+        metodaverificareNumarParPozitiv(-0);
+        metodaverificareNumarParPozitiv(-99);
+        metodaverificareNumarParPozitiv(+33);
+        metodaverificareNumarParPozitiv(+34);
+        metodaverificareNumarParPozitiv(-44);
+        metodaverificareNumarParPozitiv(+0);
 
     }
 
@@ -32,15 +37,15 @@ public class StructuriAlternative {
     public void metodaverificareNumarParPozitiv(int valoare) {
         if (valoare > 0) {
             if (valoare % 2 == 0) {
-                System.out.println("Numar este par pozitiv ");
+                System.out.println("Numar " + valoare+" este par pozitiv ");
             } else {
-                System.out.println("Numarul este impar pozitiv");
+                System.out.println("Numarul " + valoare+" este impar pozitiv");
             }
         } else if (valoare < 0) {
             if (valoare % 2 == 0) {
-                System.out.println("Numar este par negativ");
+                System.out.println("Numar " + valoare+" este par negativ");
             } else {
-                System.out.println("Numarul este impar negativ");
+                System.out.println("Numarul " + valoare+" este impar negativ");
             }
         } else {
             System.out.println("Numar egal cu zero");
